@@ -10,8 +10,10 @@
   padding: 0;
   box-sizing: border-box;
 }
-h3 {
+
+h1 {
   margin: 0;
+  color: var(--secondary-color);
 }
 
 a {
@@ -21,21 +23,12 @@ a {
 }
 
 a:hover {
-  color: var(--tertiary-color);
+  color: var(--secondary-color);
 }
 
 .container {
   margin: 0;
   padding: 0;
-}
-
-#logo {
-  width: 80px;
-  height: 80px;
-}
-
-header {
-  width: 100%;
 }
 
 .header {
