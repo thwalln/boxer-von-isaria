@@ -101,3 +101,8 @@ a {
 .footer-image {
   width: 100px;
 }
+
+.test {
+  width: 100%;
+  background-color: red;
+}
