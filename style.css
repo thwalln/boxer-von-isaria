@@ -107,3 +107,12 @@ a {
   object-fit: cover;
   height: 600px;
 }
+
+footer {
+  background-color: #25283d;
+  color: #fdfdfd;
+}
+
+footer a {
+  color: #fdfdfd;
+}
