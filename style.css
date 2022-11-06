@@ -1,3 +1,10 @@
+:root {
+  --primary-color: #25283d;
+  --secondary-color: #fdfdfd;
+  --tertiary-color: #587b7f;
+  --quartery-color: #efd2cb;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -110,10 +117,10 @@ a {
 
 footer {
   height: 260px;
-  background-color: #25283d;
-  color: #fdfdfd;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
 }
 
 footer a {
-  color: #fdfdfd;
+  color: var(--secondary-color);
 }
