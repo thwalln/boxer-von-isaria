@@ -109,6 +109,7 @@ a {
 }
 
 footer {
+  height: 320px;
   background-color: #25283d;
   color: #fdfdfd;
 }
