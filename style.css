@@ -24,6 +24,12 @@ html {
 
 body {
   min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.flex1 {
+  flex: 1;
 }
 
 .hero {
@@ -164,6 +170,14 @@ h4 {
   }
   h5 {
     font-size: 14px;
+  }
+  .container-photo-section {
+    flex-wrap: wrap;
+  }
+
+  .container-photo {
+    width: 50%;
+    height: 100%;
   }
 }
 @media screen and (max-width: 767px) {
