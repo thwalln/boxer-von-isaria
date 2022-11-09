@@ -103,6 +103,10 @@ footer a {
   color: var(--secondary-color);
 }
 
+.news {
+  max-width: 100%;
+}
+
 /* 
 Bootstrap breakpoints
 $grid-breakpoints: (
