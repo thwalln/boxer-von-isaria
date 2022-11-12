@@ -52,6 +52,7 @@ body {
 
 .container-photo {
   width: 25%;
+  object-fit: cover;
 }
 
 .logo {
@@ -91,6 +92,11 @@ a {
 
 .footer-image {
   width: 100px;
+}
+
+.about {
+  height: 100%;
+  object-fit: cover;
 }
 
 .vdh {
