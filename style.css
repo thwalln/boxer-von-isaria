@@ -93,6 +93,11 @@ a {
   width: 100px;
 }
 
+.vdh {
+  height: 100px;
+  width: 174px;
+}
+
 .img {
   width: 100%;
   object-fit: cover;
