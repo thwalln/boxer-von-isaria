@@ -1,8 +1,6 @@
 :root {
-  --primary-color: #25283d;
-  --secondary-color: #fdfdfd;
-  --tertiary-color: #587b7f;
-  --quartery-color: #efd2cb;
+  --primary-color: #52001b;
+  --secondary-color: #e0dce5;
 }
 
 * {
@@ -19,7 +17,7 @@
 html {
   max-width: 1920px;
   margin: 0 auto;
-  background-color: #f5f8fa;
+  background-color: var(--secondary-color);
 }
 
 body {
@@ -112,12 +110,17 @@ a {
 
 footer {
   height: 260px;
-  background-color: var(--primary-color);
-  color: var(--secondary-color);
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
 }
 
-footer a {
-  color: var(--secondary-color);
+.test {
+  background-color: var(--secondary-color);
+}
+
+a,
+a:hover {
+  color: var(--primary-color);
 }
 
 .max-width-100 {
@@ -161,7 +164,7 @@ h3 {
 }
 
 h4 {
-  color: #2f7393;
+  color: var(--primary-color);
   font-weight: 300;
 }
 @media screen and (min-width: 992px) {
