@@ -215,6 +215,15 @@ h4 {
   h5 {
     font-size: 14px;
   }
+
+  .footer-image {
+    width: 75px;
+  }
+
+  .vdh {
+    height: 75px;
+    width: 150px;
+  }
 }
 @media screen and (max-width: 479px) {
   h1 {
